@@ -1,0 +1,44 @@
+h1 {
+	font-size: 50px;
+	text-align: left;
+	margin-top: 100px;
+}
+.user_form{
+	margin-top: 50px;
+}
+.main_content{
+	margin: 0 auto;
+	margin-top: 100px;
+	/*background-color: rgba(32, 125, 184, 0.5);*/
+}
+.custom_size{
+	width: 174px;
+}
+.info_input{
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 5px;
+	height: 50px;
+	color: gray;
+}
+.actions{
+	padding-left: 15px;
+}
+
+.actions .row{
+	margin-bottom: 10px;
+}
+
+.p_posts{
+	margin-top: 50px;
+}
+
+.p_posts li{
+	text-align: center;
+	height:: 50px;
+
+}
+
+.p_posts li a{
+	font-size: 30px;
+}

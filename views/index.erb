@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Welcome to Photo Journal</title>
+	<link rel="stylesheet" type="text/css" href="/public/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/public/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	
+	<div class="container">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+		    	<ul class="nav navbar-nav">
+			        <li><a href="/">Home</a></li>
+			        <li><a href="#">Users</a></li>
+			     </ul>
+		  </div>
+		</nav>
+			
+		<h1>Photo Journal</h1>
+				
+		<div class="user_form">
+		<form class="form-horizontal" role="form" action="/users" method="POST">
+			<div class="form-group">
+				<label for="inputEmail3" class="col-sm-1 control-label">Email</label>
+					<div class="col-sm-10">
+						<input class="form-control" placeholder="Email" type="text" name="email" />
+					</div>
+			</div>
+			<div class="form-group">
+			<label for="inputPassword3" class="col-sm-1 control-label">Password</label>
+				<div class="col-sm-10">
+					<input type="password" class="form-control" name="password" placeholder="Password">
+				</div>
+			</div>
+			 <div class="form-group">
+			    <div class="col-sm-offset-1 col-sm-11">
+			      <input type="submit" class="btn btn-success custom_size"/>
+			    </div>
+			  </div>
+		</form>
+		</div>
+			
+
+		<div class="actions">
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-ll">
+					<a class="btn btn-primary custom_size" href="#">Create</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-ll">
+					<a class="btn btn-primary custom_size" href="#">View</a>				
+				</div>
+			</div>
+		</div>
+
+			
+		
+	</div>
+	
+</body>
+</html>

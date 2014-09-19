@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Welcome to users</title>
+	<link rel="stylesheet" type="text/css" href="/public/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/public/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+	    	<ul class="nav navbar-nav">
+		        <li><a href="/">Home</a></li>
+		        <li class="active"><a  href="#">Users</a></li>
+		     </ul>
+	  </div>
+	</nav>
+	<div class="jumbotron">
+		<h1>Hello the email you entered is: <%= user_object.email %>!</h1>
+		<h2>Your password is: <%= user_object.password %></h2>
+		<a class="btn btn-primary" href="/">Create Your Own</a>
+	</div>
+	<div class="main_content">
+		
+		<h2>Your blog posts</h2>
+		<ul class="list-group p_posts">
+			<li class="list-group-item"><a href="#">My excellent adventure</a></li>
+			<li class="list-group-item"><a href="#">My excellent adventure</a></li>
+			<li class="list-group-item"><a href="#">My excellent adventure</a></li>
+			<li class="list-group-item"><a href="#">My excellent adventure</a></li>
+			<li class="list-group-item"><a href="#">My excellent adventure</a></li>
+		</ul>
+
+	</div>
+</div>
+</body>
+</html>
