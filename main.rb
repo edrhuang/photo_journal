@@ -65,6 +65,9 @@ module Journal
             	@orm.save_user n_user
             	response.write render("users", {:user_object => n_user})
             	# response.redirect "/"
+
+            when '/create'
+            	
                 
                
 

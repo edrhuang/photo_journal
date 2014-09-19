@@ -24,6 +24,7 @@ class Post
 		@title = data['title']
 		@content = data['content']
 	end
+end
 
 class ORM
 
